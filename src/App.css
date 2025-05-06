@@ -1,0 +1,7 @@
+.table-title {
+  padding-left: 40px;
+}
+.students-table tr td {
+  padding: 10px;
+  border: 1px solid #cccc;
+}
