@@ -27,6 +27,7 @@ function App() {
 
   return (
     <div className="App">
+      {console.log("30==", context)}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
