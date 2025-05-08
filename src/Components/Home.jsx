@@ -22,7 +22,10 @@ function Home() {
   };
 
   return (
-    <div className="d-flex justify-content-center vh-100 align-items-center bg-info">
+    <div
+      className="d-flex justify-content-center vh-100 align-items-center"
+      style={{ backgroundColor: "#cccccc" }}
+    >
       <div className="bg-white rounded-4 d-flex flex-column justify-content-center align-items-center mh-100 container my-5 py-3">
         <h2 className="table-title w-100">Student List</h2>
         <p className="d-flex justify-content-end pe-5 w-100">

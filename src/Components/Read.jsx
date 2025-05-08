@@ -34,7 +34,7 @@ function Read() {
               <span className="fw-bold">Mobile:</span> {val?.Mobile}
             </p>
             <div className="d-flex">
-              <Link to="/" className="btn btn-primary me-4">
+              <Link to="/" className="btn btn-info me-4 text-white">
                 Back
               </Link>
               <Link to={`/update/${val?.ID}`} className="btn btn-primary">
